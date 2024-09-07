@@ -76,7 +76,7 @@ const Navbar = () => {
                                 <button className='flex justify-end text-xl font-medium
                                 bg-bgpink text-pink py-2 px-4 lg:px-8 navbutton rounded-full
                                 hover:text-white hover:bg-pink'>
-                                 <Link href="/sign">Sign in</Link>
+                                 <Link href={`${process.env.NEXT_PUBLIC_BASE_PATH}/sign`}>Sign in</Link>
                                 </button>
                             </div>
                         </div>
