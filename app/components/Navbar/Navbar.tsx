@@ -31,13 +31,13 @@ const Navbar = () => {
                         {/*Logo */}
                         <div className='hidden sm:flex flex-shrink-0 items-center border-right'>
                             <Image 
-                            src={`${process.env.NEXT_PUBLIC_BASE_PATH}//hair.svg`}
+                            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/car.svg`}
                             alt="logo"
                             width={36}
                             height={36}
                             />
                             <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                            Cook&apos;s Kitchen
+                            Car&apos;s 
                             </Link>
                         </div>
                         {/*Menu Links */}
@@ -63,7 +63,7 @@ const Navbar = () => {
                         <div className='gap-6 hidden lg:flex '>
                             <div className='flex item-center gap-2'>
                                 <Image 
-                                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/phone.svg`}
+                                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/iphone1.svg`}
                                 alt="phone"
                                 width={35}
                                 height={21}
