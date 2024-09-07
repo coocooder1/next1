@@ -2,8 +2,8 @@
 const nextConfig = {
     output:"export",
     reactStrictMode: true,
-    basePath: '/next1',
-  assetPrefix: '/next1/',
+    basePath: '/next1/public',
+  assetPrefix: '/next1/public/',
   
 
 
