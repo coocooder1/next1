@@ -2,9 +2,9 @@
 const nextConfig = {
     output:"export",
     reactStrictMode: true,
-    images:{
-        unoptimized:true
-    }
+    basePath: '/next1',
+  assetPrefix: '/next1/',
+  
 
 
     
