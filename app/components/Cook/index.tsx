@@ -12,7 +12,7 @@ const Cook= () => {
               <div className='col-span-6 flex justify-center'>
                 <Fade direction='left' delay={400} cascade damping={1e-1} triggerOnce={true} >
                 <Image className="rounded-3xl px-2"
-                src="/car86.jpg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/car86.jpg`}
                 alt="car86"
                 width={635}
                 height={808}/>

@@ -19,7 +19,7 @@ const Drawer = ({children, isOpen, setIsOpen}: DrawerProps) => {
                 <header className='px-4 py-4 flex items-center justify-between'>
                     <div className='flex flex-shrink-0 items-center border-right'>
                         <Image 
-                        src="/hair.svg"
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}//hair.svg`}
                         alt="logo"
                         width={36}
                         height={36}

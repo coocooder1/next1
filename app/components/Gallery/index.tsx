@@ -15,7 +15,7 @@ const Gallery = () => {
               {/* {Top photo} */}
               <div className='row-span-1   mb-5 mt-5' >
                 <Image 
-                src="/867.jpg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/867.jpg`}
                 alt="86"
                 width={960}
                 height={405}
@@ -27,7 +27,7 @@ const Gallery = () => {
               <div className='grid grid-cols-2 gap-2 '>
               <div >
                   <Image 
-                  src="/864.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/864.jpg`}
                   alt="86"
                   width={450}
                   height={405}
@@ -37,7 +37,7 @@ const Gallery = () => {
                 </div>
                 <div >
                   <Image 
-                  src="/865.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/865.jpg`}
                   alt="86"
                   width={450}
                   height={300}
@@ -47,7 +47,7 @@ const Gallery = () => {
                 </div>
                 <div >
                   <Image 
-                  src="/863.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/863.jpg`}
                   alt="86"
                   width={450}
                   height={300}
@@ -57,7 +57,7 @@ const Gallery = () => {
                 </div>
                 <div >
                   <Image 
-                  src="/8610.jpg"
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/8610.jpg`}
                   alt="86"
                   width={450}
                   height={300}
