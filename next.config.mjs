@@ -2,12 +2,11 @@
 const nextConfig = {
     output:"export",
     reactStrictMode: true,
+    images: {
+        unoptimized: true, // 禁用图片优化
+      },
 
 };
-module.exports = {
-    images: {
-      unoptimized: true, // 禁用图片优化
-    },
-  };
+
 
 export default nextConfig;
