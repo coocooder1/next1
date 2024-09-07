@@ -56,7 +56,7 @@ const Work = () => {
               className='card-b p-8 relative rounded-3xl g'>
                 <div className=' work-img-bg rounded-full flex justify-center absoulte top-[-50%] sm:top-[-40%] md:top[-55%] lg:top-[-45%] left-[0%]'>
                   <Image 
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/{items.imgSrc}`}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}${items.imgSrc}`}
                   alt={items.imgSrc}
                   width={110}
                   height={10}/>
