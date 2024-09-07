@@ -46,7 +46,7 @@ const Banner = () => {
                 <Fade direction='right' delay={1000} cascade damping={1e-1} triggerOnce={true}>
                   <div >
                     <Image 
-                    src="/86.jpg"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}/86.jpg`}
                     alt="car"
                     width={1000}
                     height={805}/>
