@@ -12,27 +12,27 @@ interface cardDataType {
 }
 const cardDataType: cardDataType[] = [
   {
-    imgSrc:'/book.svg',
-    heading:"book",
-    subheading:"Craisin relish sweet potato butter",
+    imgSrc:'/camer.svg',
+    heading:"相機",
+    subheading:"相機相關資訊",
     link:'Learn more'
   },
   {
-    imgSrc:'/cook.svg',
-    heading:"cook",
-    subheading:"Craisin relish sweet potato butter",
+    imgSrc:'/camera1.svg',
+    heading:"照片",
+    subheading:"照片相關資訊",
     link:'Learn more'
   },
   {
-    imgSrc:'/fork.svg',
-    heading:"fork",
-    subheading:"Craisin relish sweet potato butter",
+    imgSrc:'/people.svg',
+    heading:"人像",
+    subheading:"人像資訊",
     link:'Learn more'
   },
   {
-    imgSrc:'/pot.svg',
-    heading:"pot",
-    subheading:"Craisin relish sweet potato butter",
+    imgSrc:'/car3.svg',
+    heading:"車子",
+    subheading:"車子相關資訊",
     link:'Learn more'
   },
 ]
