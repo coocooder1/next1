@@ -12,7 +12,7 @@ const Banner = () => {
           <div className='col-span-6 flex flex-col justify-center'>
             <Fade direction='up' delay={400} cascade damping={1e-1} triggerOnce={true} >
               <h1 className='text-4xl lg:text-7xl font-semibold mb-5 text-lightgrey md:4px lg:text-start text-center'>
-                Cool anything <br/>with the experts
+                Toyota 86 <br/>車聚
               </h1>
 
             </Fade>
