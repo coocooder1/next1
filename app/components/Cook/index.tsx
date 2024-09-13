@@ -40,8 +40,7 @@ const Cook= () => {
 
                   </p>
                   <p className='text-grey md:text-lg font-normal mb-10 text-start mt-1'>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non vel repellat
-                  veritatis porro...
+                  拍攝計劃：如果在室內拍攝，確保有足夠的燈光來突出車子的特徵。如果是戶外拍攝，利用自然光的優勢，調整拍攝角度以避免直射陽光造成的反光。
                   </p>
                   <div className='flex align-middle justify-center md:justify-start'>
                     <button className='text-xl bg-pink text-white rounded-full py-5 px-5 lg:px-10'>Learn more</button>

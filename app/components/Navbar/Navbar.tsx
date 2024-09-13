@@ -63,13 +63,13 @@ const Navbar = () => {
                         <div className='gap-6 hidden lg:flex '>
                             <div className='flex item-center gap-2'>
                                 <Image 
-                                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/iphone1.svg`}
+                                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/email1.svg`}
                                 alt="phone"
                                 width={35}
                                 height={21}
                                 />
                                 <p className='mt-2 text-lg font-medium '>
-                                    +91 98722 22993
+                                    elvs9712104@gmail.com
                                 </p>
                             </div>
                             <div className='hidden md:block'>
