@@ -18,7 +18,7 @@ const Banner = () => {
             </Fade>
             <Fade direction='up' delay={800} cascade damping={1e-1} triggerOnce={true}>
             <p className='text-grey lg:text-lg font-normal  mb-10 lg:text-start text-center'>
-              the kitchen began in 2024 with a goal of serving bold,golabol <br/> flavors to our local community
+              拍攝日期在2024年9月 <br/> flavors to our local community
             </p>
               
             </Fade>

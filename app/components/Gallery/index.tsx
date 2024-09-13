@@ -5,8 +5,8 @@ const Gallery = () => {
     <div className='' id='gallery-section'>
       <div className='ma-auto max-w-2xl lg:max-w-7xl'>
         <div className='text-center'>
-          <h2 className='text-pink text-lg font-normal mb-3'>Our Gallery</h2>
-          <h3 className='text-3xl lg:text-5xl font-semibold text-black'> Gallery of our car</h3>
+          <h2 className='text-pink text-lg font-normal mb-3'>作品</h2>
+          <h3 className='text-3xl lg:text-5xl font-semibold text-black'> 車子作品</h3>
         </div>
         {/* {Gallery Photos} */}
         <div className='grid grid-cols-1  md:grid-cols-12 my-16 sm:space-x-6 sapce-y-6 md:space-y-0 px-6 '>

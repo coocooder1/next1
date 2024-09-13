@@ -26,19 +26,18 @@ const Cook= () => {
           {/* {right section} */}
           <div className='col-span-6 flex flex-col justify-center  space-x-5 mt-3'>
             <Fade direction='up' delay={400} cascade damping={1e-1} triggerOnce={true}>
-            <h2 className='px-5 text-pink text-lg font-normal mb-3 ls-51 uppercase'>Cook with us</h2>
+            <h2 className='px-5 text-pink text-lg font-normal mb-3 ls-51 uppercase'>和我們一起拍攝</h2>
 
             </Fade>
               <Fade direction='up' delay={800} cascade damping={1e-1} triggerOnce={true}>
-              <h3 className='text-3xl lg:text-4xl font-semibold text-start text-black'>Cooking together with the expert</h3>
+              <h3 className='text-3xl lg:text-4xl font-semibold text-start text-black'>有興趣的可以一起來參加拍攝</h3>
 
               </Fade>
               <Fade direction='up' delay={1000} cascade damping={1e-1} triggerOnce={true}>
                   <p className='text-grey md:text-lg font-normal mb-10 text-start mt-2'>
-                    German exporters sold more goods to Poland than to China in the first half of the year,
-                    an analysis showed,
-                      marking the success of a diversification drive by major German 
-                      companies as they look to reduce their dependence on the Chinese market.
+                  拍攝地點：選擇合適的拍攝地點，比如室內攝影棚、戶外場地、城市街道、自然風光等。確保地點能夠增強你想要呈現的效果。<br/>
+                  時間安排：選擇拍攝時間，比如日間拍攝可以利用自然光，黃昏或夜晚拍攝可以用不同的光線效果。
+
                   </p>
                   <p className='text-grey md:text-lg font-normal mb-10 text-start mt-1'>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non vel repellat
