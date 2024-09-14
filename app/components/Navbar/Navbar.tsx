@@ -73,11 +73,13 @@ const Navbar = () => {
                                 </p>
                             </div>
                             <div className='hidden md:block'>
+                            <Link href="/sign">
                                 <button className='flex justify-end text-xl font-medium
                                 bg-bgpink text-pink py-2 px-4 lg:px-8 navbutton rounded-full
                                 hover:text-white hover:bg-pink'>
-                                 <Link href={`${process.env.NEXT_PUBLIC_BASE_PATH}/sign`}>Sign in</Link>
+                                
                                 </button>
+                                Sign in</Link>
                             </div>
                         </div>
                     </div>
