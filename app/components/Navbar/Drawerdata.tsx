@@ -42,7 +42,7 @@ const Data = () => {
                   className='flex justify-center text-bose w-full
                   font-medium rounded-full bg-bgpink  text-pink 
                   py-3 px-4 lg:px-8 navbutton hover:bg-bgpink hover:text-black'>
-                    sign
+                    ssss
                     </button>
                   <button className='mt-4 flex justify-center text-bose w-full
                   font-medium rounded-full bg-white text-pink py-3 px-4 lg:px-8 navbutton
