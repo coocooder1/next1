@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const sign = () => {
   return (
-  
+
         
         <div className='p-3 max-w-lg mx-auto mt-36' >
        <h1 className='text-3xl text-center font-semibold my-7'>Sign in</h1>
@@ -22,7 +22,7 @@ const sign = () => {
           </form>
    
     </div>
-     
+
   )
 }
   
