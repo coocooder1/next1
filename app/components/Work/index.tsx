@@ -64,7 +64,7 @@ const Work = () => {
                   <h3 className='text-2xl text-black text-center mt-14'>{items.heading}</h3>
                    <p className='text-lg font-normal text-black text-center text-opacity-50 mt-2'>{items.subheading}</p>
                     <div className='flex items-center justify-center'>
-                      <Link href='/'>
+                      <Link href='/camera'>
                         <p className='text-center text-lg font-medium text-pink hover-underline mt-2'>
                           {items.link}<ChevronRightIcon width={20} height={20}/>
                         </p>
