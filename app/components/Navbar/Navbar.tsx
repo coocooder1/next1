@@ -74,7 +74,7 @@ const Navbar = () => {
                                     elvs9712104@gmail.com
                                 </p>
                             </div>
-                            <div className='hidden md:block'>
+                            {/* <div className='hidden md:block'>
                                 <button className='flex justify-end text-xl font-medium
                                 bg-bgpink text-pink py-2 px-4 lg:px-8 navbutton rounded-full
                                 hover:text-white hover:bg-pink'>
@@ -82,7 +82,7 @@ const Navbar = () => {
                                     Sign
                                  </Link>
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/* {Dramer for Mobile view} */}
