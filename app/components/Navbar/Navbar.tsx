@@ -6,6 +6,8 @@ import Link from 'next/link'
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import Drawer from './Drawer'
 import Drawerdata from './Drawerdata'
+import Sign from '@/app/pages/Sign'
+import { FC } from 'react';
 interface NavigationItem{
     name:string;
     href:string;
@@ -20,7 +22,7 @@ const navigation: NavigationItem[] =[
 function classNames(...classes: string[]){
     return classes.filter(Boolean).join('')
 }
-const Navbar = () => {
+const Navbar: FC = () => {
  const [isOpen, setIsOpen] = React.useState(false)
   return (
     <Disclosure as="nav" className="navbar">
@@ -73,13 +75,11 @@ const Navbar = () => {
                                 </p>
                             </div>
                             <div className='hidden md:block'>
-                            <Link href="/sign">
                                 <button className='flex justify-end text-xl font-medium
                                 bg-bgpink text-pink py-2 px-4 lg:px-8 navbutton rounded-full
                                 hover:text-white hover:bg-pink'>
-                                
+                                 <Link href="/sign">Sign</Link>
                                 </button>
-                                Sign in</Link>
                             </div>
                         </div>
                     </div>
