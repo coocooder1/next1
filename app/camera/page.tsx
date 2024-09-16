@@ -3,7 +3,7 @@ import Image from 'next/image'
 const camera = () => {
   return (
     <div className='' id='gallery-section'>
-      <div className='ma-auto max-w-2xl lg:max-w-7xl'>
+      <div className='ma-auto max-w-2xl lg:max-w-7xl mt-36'>
         <div className='text-center'>
           <h2 className='text-pink text-lg font-normal mb-3'>作品</h2>
           <h3 className='text-3xl lg:text-5xl font-semibold text-black'> 車子作品</h3>
