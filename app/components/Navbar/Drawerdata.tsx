@@ -6,7 +6,7 @@ interface NavigationItem{
   current:boolean;
 }
 const navigation: NavigationItem[] =[
-  { name:'Home', href:'#home-section', current:false},
+  { name:'Home', href:'/', current:false},
   { name:'About us', href:'#about-section', current:false},
   { name:'Cook', href:'#cook-section', current:false},
   { name:'Gallery', href:'#gallery-section', current:false},
