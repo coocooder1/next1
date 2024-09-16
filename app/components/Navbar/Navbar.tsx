@@ -6,8 +6,8 @@ import Link from 'next/link'
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import Drawer from './Drawer'
 import Drawerdata from './Drawerdata'
-import Sign from '@/app/pages/Sign'
-import { FC } from 'react';
+
+
 interface NavigationItem{
     name:string;
     href:string;
@@ -22,7 +22,7 @@ const navigation: NavigationItem[] =[
 function classNames(...classes: string[]){
     return classes.filter(Boolean).join('')
 }
-const Navbar: FC = () => {
+const Navbar = () => {
  const [isOpen, setIsOpen] = React.useState(false)
   return (
     <Disclosure as="nav" className="navbar">
