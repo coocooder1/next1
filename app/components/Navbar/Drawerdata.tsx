@@ -38,14 +38,14 @@ const Data = () => {
                 }
                 
                 <div >
-                  <button
+                  {/* <button
                   className='flex justify-center text-bose w-full
                   font-medium rounded-full bg-bgpink  text-pink 
                   py-3 px-4 lg:px-8 navbutton hover:bg-bgpink hover:text-black'>
                     <Link href="/sign">
                        Sign
                     </Link>
-                    </button>
+                    </button> */}
                   <button className='mt-4 flex justify-center text-bose w-full
                   font-medium rounded-full bg-white text-pink py-3 px-4 lg:px-8 navbutton
                   hover:bg-pink hover:text-white'>Content us</button>
