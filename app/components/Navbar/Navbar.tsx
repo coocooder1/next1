@@ -79,7 +79,7 @@ const Navbar = () => {
                                 bg-bgpink text-pink py-2 px-4 lg:px-8 navbutton rounded-full
                                 hover:text-white hover:bg-pink'>
                                  <Link href="/sign">
-                                 <a style={{ color: 'blue', textDecoration: 'underline' }}>查看歷史頁面</a>
+                                    Sign
                                  </Link>
                                 </button>
                             </div>

@@ -28,7 +28,7 @@ const Drawer = ({children, isOpen, setIsOpen}: DrawerProps) => {
                         Cook&apos;s Kitchen
                         </div>
                     </div>
-                    <XMarkIcon className='block w-6 h-6'
+                    <XMarkIcon className='block w-6 h-6 hover'
                     onClick={() => {
                         setIsOpen(false)
                     }}/>
