@@ -25,7 +25,7 @@ export default function Sign() {
             </Fade>
             <Fade direction='up' delay={1000} cascade damping={1e-1} triggerOnce={true}>
             <div className='md:flex align-middle justify-center lg:justify-start'>
-              <button className='text-xl w-full bg-pink  text-white md:w-auto rounded-full px-4 py-3 lg:px-14 mr-6'>Let's GO</button>
+              <button className='text-xl w-full bg-pink  text-white md:w-auto rounded-full px-4 py-3 lg:px-14 mr-6'> GO</button>
               {/* <button className=' flex border w-full md:w-auto mt-5 md:mt-0 items-center py-5 px-10 
               rounded-full border-pink justify-center text-pink hover:text-white hover:bg-pink'>Expolore now</button> */}
             </div>
