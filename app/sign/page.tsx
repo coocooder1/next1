@@ -3,9 +3,11 @@ import React from 'react'
 import Image from 'next/image'
 import { Fade } from 'react-awesome-reveal'
 import Link from 'next/link';
-export default function Sign() {
-    return (
-      <main>
+
+
+const sign = () => {
+  return (
+    <main>
         
         <div className='p-3 max-w-lg mx-auto' >
        <h1 className='text-3xl text-center font-semibold my-7'>Sign in</h1>
@@ -21,9 +23,9 @@ export default function Sign() {
    
     </div>
       </main>
-    )
-  }
+  )
+}
   
-  
+export default sign
   
   
