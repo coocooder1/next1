@@ -1,7 +1,23 @@
 import React from 'react'
 import Image from 'next/image'
+interface carImage {
+  imgSrc: string;
 
-
+}
+const carImage: carImage[] = [
+  {
+    imgSrc:'/carr4.jpg'
+  },
+  {
+    imgSrc:'/carr3.jpg'
+  },
+  {
+    imgSrc:'/carr2.jpg'
+  },
+  {
+    imgSrc:'/carr5.jpg'
+  },
+]
 
 
 const camera = () => {
@@ -30,7 +46,27 @@ const camera = () => {
 
               </div>
               {/* {Bottom Section} */}
-              <div className='grid grid-cols-2 gap-2 '>
+              {
+                carImage.map((items, i) => (
+                  <div key={i} className='grid grid-cols-2 gap-2 '>
+                    <div >
+           
+                    <Image 
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}/${items.imgSrc}`}
+                    alt="86"
+                    width={450}
+                    height={405}
+                      className='  rounded-3xl inner-img'
+              
+                    />
+                   </div>
+
+                  </div>
+
+                ))
+
+              }
+              {/* <div className='grid grid-cols-2 gap-2 '>
               <div >
            
                   <Image 
@@ -71,12 +107,12 @@ const camera = () => {
                    className='  rounded-3xl inner-img'
                  
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
-      </div>
+     
     
   )
 }
