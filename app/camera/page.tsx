@@ -46,26 +46,28 @@ const camera = () => {
 
               </div>
               {/* {Bottom Section} */}
+              <div className='grid grid-cols-2 gap-2 '>
               {
                 carImage.map((items, i) => (
-                  <div key={i} className='grid grid-cols-2 gap-2 '>
-                    <div >
+                  
+                    <div  key={i}>
            
                     <Image 
                     src={`${process.env.NEXT_PUBLIC_BASE_PATH}/${items.imgSrc}`}
                     alt="86"
                     width={450}
                     height={405}
-                      className='  rounded-3xl inner-img'
+                    className='  rounded-3xl inner-img'
               
                     />
                    </div>
 
-                  </div>
+                  
 
                 ))
 
               }
+              </div>
               {/* <div className='grid grid-cols-2 gap-2 '>
               <div >
            
