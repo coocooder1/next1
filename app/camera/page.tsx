@@ -9,8 +9,8 @@ const camera = () => {
 
   return (
    
-      <div className='ma-auto max-w-2xl lg:max-w-7xl mt-36 flex justify-center ' >
-        <div className='text-center flex justify-center'>
+      <div className='mx-auto max-w-2xl lg:max-w-7xl mt-36 flex justify-center ' >
+        <div className='text-center '>
           <h2 className='text-pink text-lg font-normal mb-3 '>111 Track Day Gmotor </h2>
           <h3 className='text-3xl lg:text-5xl font-semibold text-black'> </h3>
         </div>
