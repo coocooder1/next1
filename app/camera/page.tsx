@@ -9,10 +9,10 @@ const camera = () => {
 
   return (
    
-      <div className='mx-auto max-w-2xl lg:max-w-7xl mt-36 flex justify-center ' >
+      <div className='mx-auto max-w-2xl lg:max-w-7xl mt-36 ' >
         <div className='text-center '>
-          <h2 className='text-pink text-lg font-normal mb-3 '>111 Track Day Gmotor </h2>
-          <h3 className='text-3xl lg:text-5xl font-semibold text-black'> </h3>
+          <h2 className='text-pink lg:text-5xl font-normal mb-3 '>111 Track Day Gmotor </h2>
+          {/* <h3 className='text-3xl lg:text-5xl font-semibold text-black'> </h3> */}
         </div>
         {/* {Gallery Photos} */}
         <div className='grid grid-cols-1  md:grid-cols-12 my-16 sm:space-x-6 sapce-y-6 md:space-y-0 px-6 '>
