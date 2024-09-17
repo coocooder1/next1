@@ -1,9 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+
+
+
+
 const camera = () => {
+
+
   return (
     <div className='' id='gallery-section'>
-      <div className='ma-auto max-w-2xl lg:max-w-7xl mt-36'>
+      <div className='ma-auto max-w-2xl lg:max-w-7xl mt-36 flex justify-center ' >
         <div className='text-center'>
           <h2 className='text-pink text-lg font-normal mb-3'>111 Track Day Gmotor </h2>
           <h3 className='text-3xl lg:text-5xl font-semibold text-black'> </h3>
@@ -26,6 +32,7 @@ const camera = () => {
               {/* {Bottom Section} */}
               <div className='grid grid-cols-2 gap-2 '>
               <div >
+           
                   <Image 
                   src={`${process.env.NEXT_PUBLIC_BASE_PATH}/carr4.jpg`}
                   alt="86"
