@@ -39,7 +39,7 @@ const Navbar = () => {
                             height={36}
                             />
                             <Link href="/" className='text-2xl font-semibold text-black ml-4'>
-                            Car&apos;s 
+                            攝氏未紳
                             </Link>
                         </div>
                         {/*Menu Links */}
