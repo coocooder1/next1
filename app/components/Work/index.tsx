@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ChevronRightIcon } from '@heroicons/react/24/outline';
 import { Fade } from 'react-awesome-reveal'
 interface cardDataType {
+  href:string;
   imgSrc: string;
   heading:string;
   subheading:string;
@@ -12,24 +13,28 @@ interface cardDataType {
 }
 const cardDataType: cardDataType[] = [
   {
+    href:'/camera',
     imgSrc:'/camer.svg',
     heading:"相機",
-    subheading:"相機相關資訊",
+    subheading:"麗寶賽道",
     link:'Learn more'
   },
   {
+    href:'/camera1',
     imgSrc:'/camera1.svg',
     heading:"照片",
-    subheading:"照片相關資訊",
+    subheading:"大慶體育館",
     link:'Learn more'
   },
   {
+    href:'/camera1',
     imgSrc:'/people.svg',
     heading:"人像",
     subheading:"人像資訊",
     link:'Learn more'
   },
   {
+    href:'/camera1',
     imgSrc:'/car3.svg',
     heading:"車子",
     subheading:"車子相關資訊",
@@ -64,11 +69,12 @@ const Work = () => {
                   <h3 className='text-2xl text-black text-center mt-14'>{items.heading}</h3>
                    <p className='text-lg font-normal text-black text-center text-opacity-50 mt-2'>{items.subheading}</p>
                     <div className='flex items-center justify-center'>
-                      <Link href='/camera'>
+                      <Link href={items.href}>
                         <p className='text-center text-lg font-medium text-pink hover-underline mt-2'>
-                          {items.link}<ChevronRightIcon width={20} height={20}/>
+                        {items.link}<ChevronRightIcon width={20} height={20}/>
                         </p>
                       </Link>
+
                   
                     </div>
                  </div>
